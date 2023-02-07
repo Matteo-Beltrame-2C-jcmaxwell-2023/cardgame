@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+ 
+    <img src="retro.jpg"  onclick="gira()"  />
+
+
+
+    
+<script>
+        let carta=document.querySelector("img")
+        
+        function gira() {
+            if(carta.src.includes('retro'))
+            carta.src="front.jpg"
+            else 
+            carta.src="retro.jpg"
+        }
+       
+
+   
+   </script>
+
+</body>
+</html>
