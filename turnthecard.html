@@ -6,13 +6,28 @@
 </head>
 
 <body>
-
+<!--in questa sezione del codice abbiamo insterito tutte le immagini necessarie-->
     <img src="retro.jpg" onclick="gira()" />
 
     <img class="card" src="retro2.jpg" onclick="gira2()" />
 
+    <img class="card2" src="retro2.jpg" onclick="gira3()" />
+
+    <img class="card3" src="retro2.jpg" onclick="gira4()" />
+
+    <img class="card4" src="retro2.jpg" onclick="gira5()" />
+
+    <img class="card5" src="retro2.jpg" onclick="gira6()" />
+
+    <img class="card6" src="retro2.jpg" onclick="gira7()" />
+
+    <img class="card7" src="retro2.jpg" onclick="gira8()" />
+
+    <img class="card8" src="retro2.jpg" onclick="gira9()" />
+
 
     <script>
+        // in questa sezione invece abbiamo insterito tutte le funzioni e tutte le variabili per far si che tutte le carte si girino
         let carta = document.querySelector("img")
 
         function gira() {
@@ -21,7 +36,7 @@
             else
                 carta.src = "retro.jpg"
         }
-       
+
         let card = document.querySelector(".card")
 
         function gira2() {
@@ -31,7 +46,71 @@
                 card.src = "retro2.jpg"
         }
 
+        let card2 = document.querySelector(".card2")
 
+        function gira3() {
+            if (card2.src.includes('retro2'))
+                card2.src = "3front.jpg"
+            else
+                card2.src = "retro2.jpg"
+        }
+
+        let card3 = document.querySelector(".card3")
+
+
+        function gira4() {
+            if (card3.src.includes('retro2'))
+                card3.src = "4front.jpg"
+            else
+                card3.src = "retro2.jpg"
+        }
+
+        let card4 = document.querySelector(".card4")
+
+
+        function gira5() {
+            if (card4.src.includes('retro2'))
+                card4.src = "5front.jpg"
+            else
+                card4.src = "retro2.jpg"
+        }
+
+        let card5 = document.querySelector(".card5")
+
+
+        function gira6() {
+            if (card5.src.includes('retro2'))
+                card5.src = "6front.jpg"
+            else
+                card5.src = "retro2.jpg"
+        }
+
+        let card6 = document.querySelector(".card6")
+
+        function gira7() {
+            if (card6.src.includes('retro2'))
+                card6.src = "7front.jpg"
+            else
+                card6.src = "retro2.jpg"
+        }
+
+        let card7 = document.querySelector(".card7")
+
+        function gira8() {
+            if (card7.src.includes('retro2'))
+                card7.src = "8front.jpg"
+            else
+                card7.src = "retro2.jpg"
+        }
+
+        let card8 = document.querySelector(".card8")
+
+        function gira9() {
+            if (card8.src.includes('retro2'))
+                card8.src = "9front.jpg"
+            else
+                card8.src = "retro2.jpg"
+        }
 
     </script>
 
